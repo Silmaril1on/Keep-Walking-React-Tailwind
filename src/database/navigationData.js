@@ -6,10 +6,12 @@ const navigationData = [
   {
     id: 0,
     name: "home",
+    link: "/",
   },
   {
     id: 1,
     name: "our whisky",
+    link: "our-whisky",
     sublink: [
       {
         id: 0,
@@ -39,6 +41,7 @@ const navigationData = [
   {
     id: 2,
     name: "whisky coctails",
+    link: "whisky-cocktails",
     sublink: [
       {
         id: 0,
@@ -64,6 +67,7 @@ const navigationData = [
   {
     id: 3,
     name: "whisky guide",
+    link: "whisky-guide",
     sublink: [
       {
         id: 0,
@@ -101,6 +105,7 @@ const navigationData = [
   {
     id: 4,
     name: "our whisky gifts",
+    link: "our-whisky-gifts",
     sublink: [
       {
         id: 0,
@@ -111,6 +116,7 @@ const navigationData = [
   {
     id: 5,
     name: "sustainability",
+    link: "nextsteps",
     sublink: [
       {
         id: 0,
@@ -133,6 +139,7 @@ const navigationData = [
   {
     id: 6,
     name: "visit johnnie walker princes street",
+    link: "visit-us-princes-street",
     sublink: [
       {
         id: 0,
@@ -163,6 +170,7 @@ const navigationData = [
   {
     id: 7,
     name: "keep walking",
+    link: "keep-walking",
     sublink: [
       {
         id: 0,

@@ -4,6 +4,7 @@ import "../../layout.css";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import Modal from "../../../components/Modal";
 import Sublinks from "./Sublinks";
+import { NavLink } from "react-router-dom";
 
 function NavLinks() {
   const sublinksData = navigationData.map((item) => item.sublink);
@@ -41,16 +42,18 @@ function NavLinks() {
               className="mx-1"
               key={link.id}
             >
-              <h4
-                onClick={() => activeLink(index)}
-                className={
-                  active === index
-                    ? "font-primary w-auto px-1 cursor-pointer border-b-2 text-xl border-black"
-                    : "font-primary w-auto px-1 cursor-pointer text-hover text-xl"
-                }
-              >
-                {link.name}
-              </h4>
+              <NavLink to={link.link}>
+                <h4
+                  onClick={() => activeLink(index)}
+                  className={
+                    active === index
+                      ? "font-primary w-auto px-1 cursor-pointer border-b-2 text-xl border-black"
+                      : "font-primary w-auto px-1 cursor-pointer text-hover text-xl"
+                  }
+                >
+                  {link.name}
+                </h4>
+              </NavLink>
             </div>
           );
         })}

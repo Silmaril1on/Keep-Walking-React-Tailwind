@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+.page-container {
+  @apply relative flex w-full flex-col justify-center items-center bg-cream font-primary;
+}
+
+.responsive-container {
+  @apply flex flex-col md:flex-row justify-center items-center bg-cream text-black;
+}
