@@ -3,10 +3,26 @@
   padding: 0;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .page-container {
   @apply relative flex w-full flex-col justify-center items-center bg-cream font-primary;
 }
 
 .responsive-container {
-  @apply flex flex-col md:flex-row justify-center items-center bg-cream text-black;
+  @apply flex flex-col md:flex-row justify-center items-center bg-cream text-black w-full md:w-10/12;
+}
+
+.primary-hover {
+  @apply brightness-90 hover:brightness-100 hover:scale-110 duration-300;
+}
+
+.linear-background {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.664) 2%,
+    rgba(0, 0, 0, 0.096) 50%
+  );
 }

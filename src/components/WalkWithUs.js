@@ -1,13 +1,13 @@
 import React from "react";
 
-function SectionSeven() {
+function WalkWithUs() {
   return (
-    <div className="bg-orange flex flex-col md:flex-row justify-center">
+    <div className="bg-orange flex flex-col w-full md:flex-row justify-center">
       <div className="w-full md:w-2/4 px-7 md:px-20 py-14">
         <h1 className="font-primary text-left text-cream text-6xl">
           walk with us
         </h1>
-        <p className="italic">
+        <p className="italic font-secondary text-sm">
           We're here whenever you're ready to take the plunge with Johnnie
           Walker and discover cocktail recipes, new product launches and the
           latest from our world of whisky.
@@ -22,4 +22,4 @@ function SectionSeven() {
   );
 }
 
-export default SectionSeven;
+export default WalkWithUs;

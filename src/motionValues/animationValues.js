@@ -46,8 +46,8 @@ export const staggerFade02 = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      staggerChildren: 0.2,
-      delayChildren: 0.4,
+      staggerChildren: 0.5,
+      delayChildren: 0.7,
     },
   },
 };
@@ -62,6 +62,22 @@ export const textColor = {
     backgroundColor: "#fcb913",
     transition: {
       delay: 4,
+    },
+  },
+};
+
+export const staggerUp = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.3,
+      delayChildren: 0.3,
     },
   },
 };

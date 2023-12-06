@@ -7,8 +7,8 @@ import SectionThree from "./SectionThree";
 import SectionFour from "./SectionFour";
 import SectionFive from "./SectionFive";
 import SectionSix from "./SectionSix";
-import SectionSeven from "./SectionSeven";
 import MobileSectionTwo from "./MobileSectionTwo";
+import WalkWithUs from "../../components/WalkWithUs";
 
 function Home() {
   return (
@@ -23,7 +23,7 @@ function Home() {
         <SectionFour />
         <SectionFive />
         <SectionSix />
-        <SectionSeven />
+        <WalkWithUs />
       </section>
     </main>
   );

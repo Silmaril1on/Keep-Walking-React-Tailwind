@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Paragraph from "../../components/Paragraph";
 import Video from "./Video";
 import WhiskyList from "./WhiskyList";
+import SectionEnd from "./SectionEnd";
 
 function OurWhisky() {
   return (
@@ -20,6 +21,7 @@ function OurWhisky() {
       </PageHeader>
       <Video />
       <WhiskyList />
+      <SectionEnd />
     </main>
   );
 }
