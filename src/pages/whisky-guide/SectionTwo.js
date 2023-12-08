@@ -21,7 +21,7 @@ function SectionTwo() {
         whileInView="visible"
         className="flex flex-col  justify-center relative z-10 items-center md:items-start md:flex-row md:justify-end md:py-10 md:pr-32"
       >
-        {whiskymadeData.map((item, index) => {
+        {whiskymadeData.slice(0, 3).map((item, index) => {
           return (
             <motion.div key={index} variants={staggerUp} className="m-3 w-60 ">
               <div className="overflow-hidden">

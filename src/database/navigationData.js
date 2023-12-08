@@ -169,25 +169,6 @@ const navigationData = [
   },
   {
     id: 7,
-    name: "keep walking",
-    link: "keep-walking",
-    sublink: [
-      {
-        id: 0,
-        name: "keep walking stories",
-      },
-      {
-        id: 1,
-        name: "our walkers",
-      },
-      {
-        id: 2,
-        name: "keep walking proudly",
-      },
-    ],
-  },
-  {
-    id: 8,
     name: "newsletter",
   },
 ];

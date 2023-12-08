@@ -9,7 +9,7 @@ function Modal({ modalBtn }) {
       variants={fade}
       initial="hidden"
       animate="visible"
-      className="flex justify-center items-center absolute top-0 left-0 w-full h-full bg-transBlack text-cream"
+      className="flex justify-center items-center z-20 fixed top-0 left-0 w-full h-full bg-transBlack text-cream"
     >
       <div className="relative w-11/12 h-auto max-w-2xl mt-36 py-11 bg-crimson flex flex-col justify-center items-center">
         <div

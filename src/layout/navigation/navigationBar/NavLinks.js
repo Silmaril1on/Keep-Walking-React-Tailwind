@@ -18,6 +18,7 @@ function NavLinks() {
   const activeLink = (index) => {
     setSubLink(index);
     setActive(index);
+    setSubLink(false);
   };
 
   const modalBtn = () => {

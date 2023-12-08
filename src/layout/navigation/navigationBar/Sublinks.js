@@ -10,7 +10,9 @@ function Sublinks({ data, story }) {
               {data.map((sub) => {
                 return (
                   <div className="h-auto m-4 w-56" key={sub.id}>
-                    <h1 className="font-primary text-5xl">{sub.name}</h1>
+                    <h1 className="font-primary text-5xl cursor-pointer">
+                      {sub.name}
+                    </h1>
                   </div>
                 );
               })}

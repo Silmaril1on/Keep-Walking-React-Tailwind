@@ -42,9 +42,10 @@ function CocktailsList() {
                   variants={staggerFade02}
                   className="w-full my-10 md:w-6/12 grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center"
                 >
-                  {header.cocktail.map((item) => {
+                  {header.cocktail.map((item, index) => {
                     return (
                       <motion.div
+                        key={index}
                         variants={staggerFade02}
                         initial="hidden"
                         whileInView="visible"
