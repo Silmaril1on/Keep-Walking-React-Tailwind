@@ -11,7 +11,7 @@ function Video() {
     setActive(true);
   };
   const pause = () => {
-    md: vidRef.current.pause();
+    vidRef.current.pause();
     setActive(false);
   };
 
